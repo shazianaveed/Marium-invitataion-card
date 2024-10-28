@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.invitation-card {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/033/119/392/small_2x/flat-background-with-islamic-ornament-ai-generative-photo.jpg
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+}
+
+.invitation-image {
+    width: 100px;
+    border-radius: 50%;
+}
+
+h1 {
+    color:rgb(236, 171, 91);
+}
+
+.date, .time, .location {
+    font-size: 14px;
+    color: rgb(250, 182, 99);
+}
+
+button {
+    background-color:red;
+    color: rgb(218, 176, 125);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+p{
+    color: rgb(243, 176, 96);
+}
+
+
+
